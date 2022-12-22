@@ -1,7 +1,7 @@
 function getReadyTables() {
     const readyTables = []
     for (let i = 0; i < 2; i++) {
-        readyTables.push(Math.round(Math.random()*20) + 1)
+        readyTables.push(Math.round(Math.random()*19) + 1)
     }
     return readyTables
 }
